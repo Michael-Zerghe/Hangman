@@ -1,6 +1,6 @@
 @font-face{
-    font-family: "Sunset";
-    src: url(font/SunsetBoulevard.otf) format(opentype);
+    font-family: "Silent Woods";
+    src: url("font/MakerVan.ttf") format("truetype");
 }
 
 *{margin: 0;
@@ -8,13 +8,18 @@ padding: 0;
 border : 0;
 }
 
+body{
+    font-family: "Silent Woods";
+    background-image: url(images/greybg.jpg);
+}
+
+
 .header{
     text-align: center;
     padding : 60px;
     background: black;
     color: white;
     font-size: 30px;
-    font-family: "Sunset";
 }
 
 .main{
@@ -25,22 +30,48 @@ border : 0;
     flex-direction: row ; 
     
 }
+.main img{
+    width : 40%;
+}
 
 .pendu{
     margin-right : 6rem;
 }
 
 .alphabet{
-    justify-content: space-around ;
+    width : 15rem;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    margin-top : 3rem;
+    margin-left: 2rem;
 }
 
 
 .btnalpha{
-    padding: 1%;
-    margin : 0.3rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 5rem;
+    padding: 3%;
+    margin-left : 2rem;
+    margin-top : 0.3rem;
+    font-family: "Silent Woods";
     text-transform: uppercase;
     background-color:  white;
     color: black;
     border : 1px solid black;
+    font-size: 30px;
+}
+
+.answer{
+    margin-top: 5rem;
+    text-align: center;
+    
+}
+
+.contenu{
+    padding : 1rem;
+    font-size: 10rem;
+    font-size : 8rem;
+    border : solid black 1px;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    background-color : rgba(224, 224, 224, .6)
 }

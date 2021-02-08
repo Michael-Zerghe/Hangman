@@ -1,0 +1,1 @@
+let pendu = [images/Start.svg,]
