@@ -1,0 +1,46 @@
+@font-face{
+    font-family: "Sunset";
+    src: url(font/SunsetBoulevard.otf) format(opentype);
+}
+
+*{margin: 0;
+padding: 0;
+border : 0;
+}
+
+.header{
+    text-align: center;
+    padding : 60px;
+    background: black;
+    color: white;
+    font-size: 30px;
+    font-family: "Sunset";
+}
+
+.main{
+    margin-top : 10rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row ; 
+    
+}
+
+.pendu{
+    margin-right : 6rem;
+}
+
+.alphabet{
+    justify-content: space-around ;
+}
+
+
+.btnalpha{
+    padding: 1%;
+    margin : 0.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    background-color:  white;
+    color: black;
+    border : 1px solid black;
+}
