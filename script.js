@@ -1,4 +1,4 @@
-let pendu = [
+let gallery = [
     images/Start.svg,
     images/tete.svg,
     images/bras1.svg,
@@ -8,3 +8,8 @@ let pendu = [
     images/Win.svg,
     Images/Lose.svg,
 ]
+
+let image = document.getElementById
+document.getElementById("class").addEventListener("click", function(){
+
+})
