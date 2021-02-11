@@ -73,6 +73,17 @@ body{
     color: black;
 
 }
+.btnrestart{
+    width : 15rem;
+    padding: 2%;
+    margin-left : 23rem;
+    font-family: "Silent Woods";
+    text-transform: uppercase;
+    background-color:  white;
+    color: black;
+    border : 1px solid black;
+    font-size: 30px;
+}
 
 .contenu{
     padding : 1rem;
