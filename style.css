@@ -88,7 +88,6 @@ h2{
     margin-left: 2rem;
     width : 15rem;
     padding: 0.5rem;
-    margin-top : 2rem;;
     font-family: "Silent Woods";
     text-transform: uppercase;
     background-color:  white;
@@ -101,7 +100,7 @@ h2{
 .contenu{
     padding : 1rem;
     font-size: 10rem;
-    font-size : 8rem;
+    
     border : solid black 1px;
     border-radius: 1rem;
     text-transform: uppercase;
