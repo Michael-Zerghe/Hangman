@@ -21,6 +21,14 @@ body{
     color: white;
     font-size: 30px;
 }
+h1{
+    font-size: 300%;
+}
+h2{
+    margin-top: 1rem;
+    font-size : 100%;
+    text-transform: uppercase;
+}
 
 .essais{
     margin-top: 20rem;
@@ -68,21 +76,26 @@ body{
 }
 
 .answer{
-    margin-top: 5rem;
-    text-align: center;
+    margin-top : 2rem;
     color: black;
+    display: flex;
+    justify-content: center;
 
 }
-.btnrestart{
+#restart{
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
     width : 15rem;
-    padding: 2%;
-    margin-left : 23rem;
+    padding: 0.5rem;
+    margin-top : 2rem;;
     font-family: "Silent Woods";
     text-transform: uppercase;
     background-color:  white;
     color: black;
     border : 1px solid black;
     font-size: 30px;
+    flex-wrap: wrap;
 }
 
 .contenu{

@@ -25,7 +25,7 @@ let screen = [];
 let x = 0;
 let galInd = 1;
 let chances = 7;
-let letter = document.querySelectorAll("button");
+let letter = document.querySelectorAll("button.btnalpha");
 while(x<word.length){
     screen.push('-');
     x++;
