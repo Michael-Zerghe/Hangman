@@ -3,13 +3,13 @@
 //comparer lettre au mot (boucle)
 //condition positive/negative
 //reset
-let word = "bonjour";
+let word = "art";
 let hidden = word.split('');
 let screen = [];
 let x = 0;
+let i;
 let chances = 10;
 let letter = document.querySelectorAll("button");
-console.log(hidden);
 while(x<word.length){
     screen.push('-');
     x++;
@@ -19,7 +19,9 @@ document.getElementById("reponse").innerHTML = screen.join('');
 letter.forEach(p =>{
     p.addEventListener("click",function(){
         if(hidden.includes(p.innerHTML)){
-            document.getElementById("reponse").innerHTML = p.innerHTML;
+           i = hidden.indexOf(p.innerHTML);
+           screen[i] = p.innerHTML;
+            document.getElementById("reponse").innerHTML = screen.join('');
         }
         else if(chances>0){
             chances--;
@@ -32,7 +34,6 @@ letter.forEach(p =>{
             })
         } 
         p.disabled = true;
-
     })
 })
 
