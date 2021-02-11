@@ -22,6 +22,13 @@ body{
     font-size: 30px;
 }
 
+.essais{
+    margin-top: 20rem;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
 .main{
     margin-top : 10rem;
     display: flex;
@@ -64,6 +71,7 @@ body{
     margin-top: 5rem;
     text-align: center;
     color: black;
+
 }
 
 .contenu{
@@ -73,5 +81,6 @@ body{
     border : solid black 1px;
     border-radius: 1rem;
     text-transform: uppercase;
-    background-color : rgba(224, 224, 224, .6)
+    background-color : rgba(224, 224, 224, .6);
+    
 }
